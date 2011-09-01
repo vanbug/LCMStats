@@ -1,0 +1,12 @@
+Package: LCMStats
+Type: Package
+Title: A package for detailed inspection and analysis of LCMS data.
+Version: 1.0
+Date: 2010-07-15
+Author: Sukhdeep Singh
+Maintainer: Sukhdeep Singh \email<sukhdeepsingh.bio@gmail.com>
+Depends: xcms
+Description: A package for inspection and analysis of the LCMS data including the test for the identification of Parent-Fragment pairs, checking coelution between them and isotopic ratio test for checking variation between the theorertical and emperical formulae patterns. It includes a peak reading function which returns the low and missing ion counts excluded out by the \code{\link{xcmsRaw}} as a part of its preprocessing algorithm and a heat plot function which generates the image plot of profile data with colour matrix depending on the ion intensities. It also includes functions for coates algorithm for correcting the detector saturation bias by fixing the dead time induced at the time of high ion arrivals, for pooling the low ion counts to make it valid test data and a function for plotting quantile-quantile plots between the observed and theoretical chi square goodness of fit distributions.
+License: GPL(>=3)
+LazyLoad: yes
+Packaged: 2010-10-05 11:51:33 UTC; sukhdeepsingh
